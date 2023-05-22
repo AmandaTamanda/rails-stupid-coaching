@@ -1,0 +1,10 @@
+<div class="container mx-auto mt-5" style="width: 90rem">
+  <h1 m3>Stupid Coaching</h1>
+    <div class="card-body shadow-sm mb-4 border-start border-5"><%= @question.capitalize %>
+    <p><i>-You</i></p>
+    </div>
+    <div class="alert-warning card-body shadow-sm mb-4 border-start border-5" role="alert"><%= @answer.capitalize %>
+    <p><i>-Your coach</i></p>
+    </div>
+<%= link_to "Ask a new question", ask_path%>
+</div>
